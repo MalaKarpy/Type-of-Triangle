@@ -1,7 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class RectangleUnitTest {
+public class TriangleTrackerUnitTest {
 
   @Test
   public void newTriangle_instantiatesCorrectly() {

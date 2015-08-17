@@ -1,16 +1,28 @@
-<h1>Square finder</h1>
-<h3>Enter the length and width of a rectangle and I will tell you if it's a square!</h3>
+<h1>Triangle Tracker</h1>
+#if ($myTriangle)
+<p><h3>You have entered </h3></p>
+<h3>Side One: $myTriangle.getSideOne()</h3>
+<h3>Side Two: $myTriangle.getSideTwo()</h3>
+<h3>Side Three: $myTriangle.getSideThree()</h3>
+<p><h3>You entered $myTriangle.typeOfTriangle() triangle</h3></p>
 
-<form action='/rectangle'>
+#else
+<h3>Enter the three sides of triangle to find out the type of triangle</h3>
+
+<form action='/triangle' method="post">
   <div class="form-group">
-    <label for="length">Length</label>
-    <input id="length" name="length" class="form-control" type="text">
+    <label for="Side One">Length</label>
+    <input id="firstSide" name="firstSide" class="form-control" type="number" required>
   </div>
-
   <div class="form-group">
-    <label for="width">Width</label>
-    <input id="width" name="width" class="form-control" type="text">
+    <label for="Side Two">Length</label>
+    <input id="secondSide" name="secondSide" class="form-control" type="number" required>
   </div>
-
-  <button type="submit" class="btn">Go!</button>
+  <div class="form-group">
+    <label for="Side Three">Length</label>
+    <input id="thirdSide" name="thirdSide" class="form-control" type="number" required>
+  </div>
+    <button type="submit" class="btn">Go!</button>
 </form>
+#end
+<a href="/">Return to home page</a>
