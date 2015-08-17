@@ -14,4 +14,16 @@ public class RectangleUnitTest {
     TriangleTracker testTriangle = new TriangleTracker(2, 2, 2);
     assertEquals("Equilateral", testTriangle.typeOfTriangle());
   }
+
+  @Test
+  public void isIsosceles() {
+    TriangleTracker testTriangle = new TriangleTracker(2, 4, 4);
+    assertEquals("Isoscelene", testTriangle.typeOfTriangle());
+  }
+
+  @Test
+  public void isScalene() {
+    TriangleTracker testTriangle = new TriangleTracker(7, 4, 5);
+    assertEquals("Scalene", testTriangle.typeOfTriangle());
+  }
  }

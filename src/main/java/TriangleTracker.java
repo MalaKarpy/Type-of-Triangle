@@ -60,7 +60,7 @@ public class TriangleTracker {
       } else if ((sideOne == sideTwo) || (sideTwo == sideThree) || (sideOne == sideThree)) {
         type = "Isoscelene";
       } else {
-        type = "scalene";
+        type = "Scalene";
       }
       return type;
     }
