@@ -26,4 +26,5 @@ public class TriangleTrackerUnitTest {
     TriangleTracker testTriangle = new TriangleTracker(7, 4, 5);
     assertEquals("Scalene", testTriangle.typeOfTriangle());
   }
+
  }

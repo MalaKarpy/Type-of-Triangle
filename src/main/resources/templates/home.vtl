@@ -5,24 +5,24 @@
 <h3>Side Two: $myTriangle.getSideTwo()</h3>
 <h3>Side Three: $myTriangle.getSideThree()</h3>
 <p><h3>You entered $myTriangle.typeOfTriangle() triangle</h3></p>
+<a href="/">Return to home page</a>
 
 #else
 <h3>Enter the three sides of triangle to find out the type of triangle</h3>
 
 <form action='/triangle' method="post">
   <div class="form-group">
-    <label for="Side One">Length</label>
+    <label for="Side One">Side One</label>
     <input id="firstSide" name="firstSide" class="form-control" type="number" required>
   </div>
   <div class="form-group">
-    <label for="Side Two">Length</label>
+    <label for="Side Two">Side Two</label>
     <input id="secondSide" name="secondSide" class="form-control" type="number" required>
   </div>
   <div class="form-group">
-    <label for="Side Three">Length</label>
+    <label for="Side Three">Side Three</label>
     <input id="thirdSide" name="thirdSide" class="form-control" type="number" required>
   </div>
     <button type="submit" class="btn">Go!</button>
 </form>
 #end
-<a href="/">Return to home page</a>

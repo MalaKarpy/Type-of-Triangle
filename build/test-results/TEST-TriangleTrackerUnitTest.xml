@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TriangleTrackerUnitTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-08-17T23:57:51" hostname="epicodus-115.local" time="0.001">
+  <properties/>
+  <testcase name="isEquilateral" classname="TriangleTrackerUnitTest" time="0.001"/>
+  <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTrackerUnitTest" time="0.0"/>
+  <testcase name="isScalene" classname="TriangleTrackerUnitTest" time="0.0"/>
+  <testcase name="isIsosceles" classname="TriangleTrackerUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
